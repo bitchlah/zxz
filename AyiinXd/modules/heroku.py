@@ -7,27 +7,21 @@
    Heroku manager for your userbot
 """
 
-import math
 import os
 
-import aiohttp
 import heroku3
 import urllib3
 
-from random import choice
-from time import sleep
 
 from AyiinXd import BOTLOG_CHATID
 from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME, LOGS
+from AyiinXd import CMD_HELP, HEROKU_API_KEY, HEROKU_APP_NAME
 from AyiinXd.modules.sql_helper.globals import addgvar, delgvar, gvarstatus
 from AyiinXd.ayiin import (
     ayiin_cmd,
     eod,
     eor,
-    humanbytes,
 )
-from AyiinXd.ayiin.misc import async_searcher
 from AyiinXd.ayiin.my_heroku import db_usage, get_full_usage, heroku_usage, simple_usage
 from Stringyins import get_string
 
@@ -52,7 +46,7 @@ async def variable(var):
     exe = var.pattern_match.group(1)
     if app is None:
         await eor(var, get_string("heroku_1")
-        )
+                  )
         return False
     if exe == "get":
         xx = await eor(var, get_string("com_8"))
@@ -149,7 +143,7 @@ async def dyno_usage(dyno):
 async def fake_dyno(event):
     xx = await eor(event, get_string("com_1"))
     await xx.edit(get_string("usange_1").format(app.name)
-    )
+                  )
 
 
 @ayiin_cmd(pattern="logs")
@@ -169,14 +163,14 @@ async def getsql(event):
     xxnx = await eor(event, get_string("getdb_1").format(var_))
     if var_ == "":
         return await xxnx.edit(get_string("getdb_2").format(cmd)
-        )
+                               )
     try:
         sql_v = gvarstatus(var_)
         os_v = os.environ.get(var_) or "None"
     except Exception as e:
         return await xxnx.edit(get_string("error_1").format(e))
     await xxnx.edit(get_string("getdb_3").format(var_, os_v, var_, sql_v)
-    )
+                    )
 
 
 @ayiin_cmd(pattern="setdb ?(.*)", allow_sudo=False)
@@ -188,7 +182,7 @@ async def setsql(event):
     xxnx = await eor(event, get_string("setdb_1").format(var_, valu))
     if "" in (var_, valu):
         return await xxnx.edit(get_string("setdb_2").format(cmd)
-        )
+                               )
     try:
         addgvar(var_, valu)
     except Exception as e:
@@ -202,7 +196,7 @@ async def delsql(event):
     xxnx = await eor(event, get_string("deldb_1").format(var_))
     if var_ == "":
         return await xxnx.edit(get_string("deldb_2").format(cmd)
-        )
+                               )
     try:
         delgvar(var_)
     except Exception as e:
