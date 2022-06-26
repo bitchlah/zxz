@@ -191,7 +191,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/bitchlah/ALBY-Userbot.git")
+    "https://github.com/bitchlah/zxz.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -227,13 +227,13 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
 ALIVE_NAME = os.environ.get("ALIVE_NAME", "PunyaAlby")
 
 # Custom Emoji Alive
-ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "❖")
+ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "㊪")
 
 # Custom Emoji Alive
-INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "❖")
+INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "㊪")
 
 # Custom icon HELP
-ICON_HELP = os.environ.get("ICON_HELP", "❖")
+ICON_HELP = os.environ.get("ICON_HELP", "㊪")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
@@ -752,7 +752,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**ALBY-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n❖ **Owner Repo :** [『ⒶⓁⒷⓎ』](https://t.me/punya_alby)\n❖ **Support :** @ruangdiskusikami\n❖ **Repository :** [ALBY-Userbot](https://github.com/PunyaAlby/ALBY-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**ALBY-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n㊪ **Owner Repo :** [『ⒶⓁⒷⓎ』](https://t.me/punya_alby)\n㊪ **Support :** @ruangdiskusikami\n㊪ **Repository :** [ALBY-Userbot](https://github.com/PunyaAlby/ALBY-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -862,7 +862,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**ALBY-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n❖ **Owner :** [{user.first_name}](tg://user?id={user.id})\n❖ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Updates:** @ruangprojects\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**ALBY-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n㊪ **Owner :** [{user.first_name}](tg://user?id={user.id})\n㊪ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Updates:** @ruangprojects\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
