@@ -717,7 +717,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**📍 ALBY-Userbot Inline Menu 📍**\n\n📌 **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n🔖 **Jumlah :** `{len(dugmeler)}` **Modules**"
+                text = f"**📍 ALBY-Userbot Inline Menu 📍**\n\n📌 **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n🔖 **Jumlah :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=albylogo,
@@ -739,7 +739,7 @@ with bot:
                 result = await event.builder.photo(
                     file=albylogo,
                     link_preview=False,
-                    text=f"**📍 ALBY-Userbot Inline Menu 📍**\n\n📌 **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n🔖 **Jumlah :** `{len(dugmeler)}` **Modules**",
+                    text=f"**📍 ALBY-Userbot Inline Menu 📍**\n\n📌 **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n🔖 **Jumlah :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -919,7 +919,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Ayiin-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**📍 ALBY-Userbot Inline Menu 📍**\n\n📌 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔖 **Jumlah :** `{len(dugmeler)}` **Modules**")
+                    f"**📍 ALBY-Userbot Inline Menu 📍**\n\n📌 **Owner :** [{user.first_name}](tg://user?id={user.id})\n🔖 **Jumlah :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=albylogo,
