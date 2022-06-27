@@ -13,7 +13,6 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-from .start import startupmessage
 from . import format as _format
 from ._baseyins import AyiinDB
 from ._hosting import HOSTED_ON
