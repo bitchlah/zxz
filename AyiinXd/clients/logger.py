@@ -13,7 +13,7 @@ from telethon import Button
 
 from AyiinXd import BOTLOG_CHATID, LOGS
 from AyiinXd import AYIIN10, AYIIN2, AYIIN3, AYIIN4, AYIIN5, AYIIN6, AYIIN7, AYIIN8, AYIIN9, bot, tgbot
-from AyiinXd.ayiin import checking
+from AyiinXd.ayiin import checking, startupmessage
 
 MSG_ON = """
 ❏ ᴀʟʙʏ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
