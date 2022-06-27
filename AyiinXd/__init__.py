@@ -139,7 +139,7 @@ BLACKLIST_GCAST = {
 # For Blacklist Group Support
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001675396283]
+    BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001638078842]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -566,7 +566,7 @@ def paginate_help(page_number, loaded_modules, prefix):
                     "⪻", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "⪼ ʙᴀᴄᴋ ⪻", data="{}_close({})".format(prefix, modulo_page)
+                    "⪼ 🗑️ Close ⪻", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     "⪼", data="{}_next({})".format(prefix, modulo_page)
@@ -713,10 +713,10 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**📍 ALBY-Userbot Inline Menu 📍**\n\n㊪ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n㊪ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n㊪ **ᴏᴡɴᴇʀ** {user.first_name}\n㊪ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
-                    file=logoyins,
+                    file=logo,
                     buttons=buttons,
                     link_preview=False,
                 )
@@ -733,9 +733,9 @@ with bot:
                     "@AyiinXdSupport"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = await event.builder.photo(
-                    file=logoyins,
+                    file=logo,
                     link_preview=False,
-                    text=f"**✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**📍 ALBY-Userbot Inline Menu 📍**\n\n㊪ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n㊪ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n㊪ **ᴏᴡɴᴇʀ :** {user.first_name}\n㊪ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -748,7 +748,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**ALBY-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AyiinXd](https://t.me/AyiinXd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @AyiinXdSupport\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**ALBY-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n㊪  **ʀᴇᴘᴏ :** [PunyaAlby](https://t.me/Punya_Alby)\n㊪ **sᴜᴘᴘᴏʀᴛ :** @ruangdiskusikami\n㊪ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ALBY-Userbot](https://github.com/PunyaAlby/ALBY-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -767,7 +767,7 @@ with bot:
                     description="String ALBY - Userbot",
                     url="https://t.me/ruangdiskusikami",
                     thumb=InputWebDocument(
-                        logoyins,
+                        logo,
                         0,
                         "image/jpeg",
                         []),
@@ -808,7 +808,7 @@ with bot:
                     description="Lang ALBY - Userbot",
                     url="https://t.me/ruangdiskusikami",
                     thumb=InputWebDocument(
-                        logoyins,
+                        logo,
                         0,
                         "image/jpeg",
                         []),
@@ -850,7 +850,7 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ✨",
+                    title="✨ ᴀʟʙʏ-ᴜsᴇʀʙᴏᴛ ✨",
                     description="ALBY - Userbot | Telethon",
                     url="https://t.me/ruangdiskusikami",
                     thumb=InputWebDocument(
@@ -858,7 +858,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**ALBY-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @AyiinSupport\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**ALBY-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n㊪ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n㊪ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @ruangprojects\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -902,7 +902,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Kyy-Userbot
                 # https://t.me/TelethonChat/115200
                 await event.edit(
-                    file=logoyins,
+                    file=logo,
                     link_preview=True,
                     buttons=main_help_button)
 
@@ -915,10 +915,10 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @Ayiin-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ ᴀʏɪɪɴ-ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**📍 ALBY-Userbot Inline Menu 📍**\n\n㊪ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n㊪ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
-                    file=logoyins,
+                    file=logo,
                     link_preview=True,
                     buttons=main_help_button)
 
@@ -940,7 +940,7 @@ with bot:
                         await event.edit(
                             get_string("lang_2").format(
                                 languages[lang]['asli'], lang),
-                            file=logoyins,
+                            file=logo,
                             link_preview=True,
                             buttons=[Button.inline("ʙᴀᴄᴋ", data="yins_close")]
                         )
@@ -1000,7 +1000,7 @@ with bot:
 """)
                 await event.edit(
                     text,
-                    file=logoyins,
+                    file=logo,
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="inline_yins")])
             else:
@@ -1032,7 +1032,7 @@ with bot:
 """)
                 await event.edit(
                     text,
-                    file=logoyins,
+                    file=logo,
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="inline_yins")])
             else:
@@ -1047,9 +1047,9 @@ with bot:
 """,
                                  buttons=[
                                      [
-                                         Button.inline("⍟ ʙᴛᴘᴍ ⍟",
+                                         Button.inline("㊪ ʙᴛᴘᴍ ㊪",
                                                        data="btpmayiin"),
-                                         Button.inline("⍟ ʏɪɴs ʙᴏᴋᴇᴘ ⍟",
+                                         Button.inline("㊪ ʏɪɴs ʙᴏᴋᴇᴘ ㊪",
                                                        data="yinsbokep")],
                                      [custom.Button.inline(
                                          "ʙᴀᴄᴋ", data="gcback")],
@@ -1082,7 +1082,7 @@ with bot:
 """)
                 await event.edit(
                     text,
-                    file=logoyins,
+                    file=logo,
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="konten_yins")])
             else:
@@ -1104,7 +1104,7 @@ with bot:
 """)
                 await event.edit(
                     text,
-                    file=logoyins,
+                    file=logo,
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="konten_yins")])
             else:
@@ -1128,7 +1128,7 @@ with bot:
 """)
                 await event.edit(
                     text,
-                    file=logoyins,
+                    file=logo,
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="gcback")])
             else:
@@ -1140,7 +1140,7 @@ with bot:
             buttons = [
                 (custom.Button.inline("ᴍᴀɪɴ ᴍᴇɴᴜ", data="gcback"),),
             ]
-            await event.edit("**ᴍᴇɴᴜ ᴅɪᴛᴜᴛᴜᴘ**", file=logoyins, buttons=buttons)
+            await event.edit("**ᴍᴇɴᴜ ᴅɪᴛᴜᴛᴜᴘ**", file=logo, buttons=buttons)
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -1149,7 +1149,7 @@ with bot:
         )
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
-                await event.edit(get_string("lang_3"), file=logoyins)
+                await event.edit(get_string("lang_3"), file=logo)
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(
