@@ -159,6 +159,7 @@ STRING_10 = os.environ.get("STRING_10", None)
 
 # Logging channel/group ID configuration.
 BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", "0"))
+BOTLOG = sb(os.environ.get("BOTLOG", "True"))
 
 # Load or No Load modules
 LOAD = os.environ.get("LOAD", "").split()
