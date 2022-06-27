@@ -954,9 +954,9 @@ with bot:
 """,
                                  buttons=[
                                      [
-                                         Button.inline("⍟ ᴠᴄ ᴘʟᴜɢɪɴ ⍟",
+                                         Button.inline("㊪ ᴠᴄ ᴘʟᴜɢɪɴ ㊪",
                                                        data="vcplugin"),
-                                         Button.inline("⍟ ᴠᴄ ᴛᴏᴏʟs ⍟",
+                                         Button.inline("㊪ ᴠᴄ ᴛᴏᴏʟs ㊪",
                                                        data="vctools")],
                                      [custom.Button.inline(
                                          "ʙᴀᴄᴋ", data="gcback")],
@@ -975,7 +975,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ **Perintah yang tersedia di vcplugin** ✘
+🎧 **Perintah yang tersedia di vcplugin** 🎧
   »  **Perintah : **`{cmd}play` <Judul Lagu/Link YT>
   »  **Kegunaan :** __Untuk Memutar Lagu di voice chat group dengan akun kamu.__
   »  **Perintah : **`{cmd}vplay` <Judul Video/Link YT>
@@ -1011,7 +1011,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 text = (
                     f"""
-✘ **Perintah yang tersedia di vctools** ✘
+🎧 **Perintah yang tersedia di vctools** 🎧
   »  **Perintah : **`{cmd}startvc`
   »  **Kegunaan :** __Untuk Memulai voice chat group.__
   »  **Perintah : **`{cmd}stopvc`
@@ -1133,7 +1133,7 @@ with bot:
         @tgbot.on(events.CallbackQuery(data=b"close"))
         async def close(event):
             buttons = [
-                (custom.Button.inline("ᴍᴀɪɴ ᴍᴇɴᴜ", data="gcback"),),
+                (custom.Button.inline("📤 ᴍᴀɪɴ ᴍᴇɴᴜ 📤", data="gcback"),),
             ]
             await event.edit("**ᴍᴇɴᴜ ᴅɪᴛᴜᴛᴜᴘ**", file=logo, buttons=buttons)
 
