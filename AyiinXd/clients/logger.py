@@ -17,7 +17,6 @@ from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import AYIIN2, AYIIN3, AYIIN4, AYIIN5, AYIIN6, AYIIN7, AYIIN8, AYIIN9, AYIIN10, bot, branch, tgbot
 from AyiinXd.ayiin import ayiin_version as py_ver
 from AyiinXd.ayiin import HOSTED_ON, checking
-from AyiinXd.clients import startupmessage
 
 MSG_ON = """
 ❏ ᴀʟʙʏ - ᴜsᴇʀʙᴏᴛ ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ
