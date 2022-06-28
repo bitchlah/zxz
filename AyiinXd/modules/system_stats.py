@@ -187,7 +187,7 @@ async def amireallyalive(alive):
     await alive.edit("🪔")
     await asyncio.sleep(3)
     output = (
-        f"**Tʜᴇ [Aʏɪɪɴ-Usᴇʀʙᴏᴛ](https://github.com/AyiinXd/Ayiin-Userbot)**\n\n"
+        f"**Tʜᴇ [ᴀʟʙʏ-ᴜsᴇʀʙᴏᴛ](https://github.com/PunyaAlby/ALBY-Userbot)**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"{emoji} **Bᴀsᴇ Oɴ :** ••{adB.name}••\n"
