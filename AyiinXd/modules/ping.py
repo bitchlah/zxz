@@ -50,7 +50,7 @@ async def get_readable_time(seconds: int) -> str:
 async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    Ayiin = await edit_or_reply(ping, "**✧**")
+    Ayiin = await edit_or_reply(ping, "**㊪**")
     await Ayiin.edit("**㊪㊪**")
     await Ayiin.edit("**㊪㊪㊪**")
     await Ayiin.edit("**㊪㊪㊪㊪**")
