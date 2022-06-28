@@ -78,7 +78,7 @@ async def ayiin(ganteng):
 
 CMD_HELP.update(
     {
-        "yinsping": f"**Plugin:** `yinsping`\
+        "albysping": f"**Plugin:** `albysping`\
         \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs ALBY-Userbot Tod.`\
         \n  »  **Kegunaan :** __Silahkan Ketik `{cmd}ping` Untuk Publik.__\
     "
