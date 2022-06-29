@@ -13,7 +13,7 @@ import asyncio
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from AyiinXd import ALIVE_NAME, CMD_HELP
+from AyiinXd import CMD_HELP
 from AyiinXd.events import register
 
 
@@ -21,7 +21,7 @@ from AyiinXd.events import register
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
@@ -52,12 +52,13 @@ async def _(event):
         )
         await event.client.delete_messages(conv.chat_id, [msg_font.id, r.id, msg.id, r2.id, msg2.id, response.id, nulis.id])
         await event.delete()
+
 
 @register(outgoing=True, pattern=r"^\.nulis1(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
@@ -88,12 +89,13 @@ async def _(event):
         )
         await event.client.delete_messages(conv.chat_id, [msg_font.id, r.id, msg.id, r2.id, msg2.id, response.id, nulis.id])
         await event.delete()
+
 
 @register(outgoing=True, pattern=r"^\.nulis2(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
@@ -125,11 +127,12 @@ async def _(event):
         await event.client.delete_messages(conv.chat_id, [msg_font.id, r.id, msg.id, r2.id, msg2.id, response.id, nulis.id])
         await event.delete()
 
+
 @register(outgoing=True, pattern=r"^\.nulis3(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
@@ -161,11 +164,12 @@ async def _(event):
         await event.client.delete_messages(conv.chat_id, [msg_font.id, r.id, msg.id, r2.id, msg2.id, response.id, nulis.id])
         await event.delete()
 
+
 @register(outgoing=True, pattern=r"^\.nulis4(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
@@ -197,11 +201,12 @@ async def _(event):
         await event.client.delete_messages(conv.chat_id, [msg_font.id, r.id, msg.id, r2.id, msg2.id, response.id, nulis.id])
         await event.delete()
 
+
 @register(outgoing=True, pattern=r"^\.nulis5(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
@@ -233,11 +238,12 @@ async def _(event):
         await event.client.delete_messages(conv.chat_id, [msg_font.id, r.id, msg.id, r2.id, msg2.id, response.id, nulis.id])
         await event.delete()
 
+
 @register(outgoing=True, pattern=r"^\.nulis6(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
@@ -269,11 +275,12 @@ async def _(event):
         await event.client.delete_messages(conv.chat_id, [msg_font.id, r.id, msg.id, r2.id, msg2.id, response.id, nulis.id])
         await event.delete()
 
+
 @register(outgoing=True, pattern=r"^\.nulis7(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
@@ -305,11 +312,12 @@ async def _(event):
         await event.client.delete_messages(conv.chat_id, [msg_font.id, r.id, msg.id, r2.id, msg2.id, response.id, nulis.id])
         await event.delete()
 
+
 @register(outgoing=True, pattern=r"^\.nulis8(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
@@ -341,11 +349,12 @@ async def _(event):
         await event.client.delete_messages(conv.chat_id, [msg_font.id, r.id, msg.id, r2.id, msg2.id, response.id, nulis.id])
         await event.delete()
 
+
 @register(outgoing=True, pattern=r"^\.nulis9(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
@@ -377,11 +386,12 @@ async def _(event):
         await event.client.delete_messages(conv.chat_id, [msg_font.id, r.id, msg.id, r2.id, msg2.id, response.id, nulis.id])
         await event.delete()
 
+
 @register(outgoing=True, pattern=r"^\.nulis10(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
@@ -413,11 +423,12 @@ async def _(event):
         await event.client.delete_messages(conv.chat_id, [msg_font.id, r.id, msg.id, r2.id, msg2.id, response.id, nulis.id])
         await event.delete()
 
+
 @register(outgoing=True, pattern=r"^\.nulis11(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin Tulisan yang mau dibuat`")
