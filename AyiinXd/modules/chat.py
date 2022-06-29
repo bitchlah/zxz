@@ -42,7 +42,7 @@ from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP
 from AyiinXd.ayiin import eod, eor
 from AyiinXd.events import register
-from AyiinXd.modules.yinsping import absen
+from AyiinXd.modules.albyping import absen
 from AyiinXd.ayiin import ayiin_cmd, get_user_from_event
 from Stringyins import get_string
 
