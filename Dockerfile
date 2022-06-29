@@ -1,8 +1,8 @@
 #==============×==============#
-#      Created by: Alfa-Ex
-#=========× AyiinXd ×=========#
+#    Created by: PunyaAlby
+#=======× ALBY-Userbot ×======#
 
-FROM ayiinxd/ayiin-userbot:buster
+FROM punyaalby/alby-userbot:buster
 
 RUN git clone -b ALBY-Userbot https://github.com/bitchlah/zxz /home/albyuserbot/ \
     && chmod 777 /home/albyuserbot \
