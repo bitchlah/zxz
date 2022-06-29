@@ -145,14 +145,6 @@ if not BLACKLIST_CHAT:
 API_KEY = int(os.environ.get("API_KEY") or 0)
 API_HASH = str(os.environ.get("API_HASH") or None)
 
-# VVIP ONLY
-VVIP = (
-    1441342342,
-    5089916692,
-    1938616056,
-    810227767,
-)
-
 # Userbot Session String
 STRING_SESSION = os.environ.get("STRING_SESSION", None)
 STRING_2 = os.environ.get("STRING_2", None)
