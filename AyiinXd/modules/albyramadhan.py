@@ -352,6 +352,7 @@ async def _(event):
     )
     await event.delete()
 
+
 @ayiin_cmd(pattern="nyemen3(?: |$)(.*)")
 async def _(event):
     await event.client.send_message(
