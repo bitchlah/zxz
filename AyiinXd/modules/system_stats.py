@@ -205,9 +205,9 @@ async def amireallyalive(alive):
     )
     if ALIVE_LOGO:
         try:
-            logo = ALIVE_LOGO
+            logo=ALIVE_LOGO
             await alive.delete()
-            msg = await alive.client.send_file(alive.chat_id, logo, caption=output)
+            msg=await alive.client.send_file(alive.chat_id, logo, caption = output)
             await asyncio.sleep(800)
             await msg.delete()
         except BaseException:
