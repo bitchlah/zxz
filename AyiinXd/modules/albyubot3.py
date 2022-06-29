@@ -21,7 +21,7 @@ from Stringyins import get_string
 # ========================×========================
 
 
-@ayiin_cmd(pattern=r"yins(?: |$)(.*)")
+@ayiin_cmd(pattern=r"alby(?: |$)(.*)")
 async def _(y):
     ayiin = await eor(y, get_string("yibot_77"))
     sleep(3)
@@ -63,9 +63,9 @@ async def _(s):
 
 CMD_HELP.update(
     {
-        "yinsubot3": f"**Plugin : **`yinsubot3`\
-        \n\n  »  **Perintah :** `{cmd}yins`\
-        \n  »  **Kegunaan : **Perkenalan diri Yins\
+        "albyubot3": f"**Plugin : **`albyubot3`\
+        \n\n  »  **Perintah :** `{cmd}alby`\
+        \n  »  **Kegunaan : **Perkenalan diri ALBY\
         \n\n  »  **Perintah :** `{cmd}sayang`\
         \n  »  **Kegunaan : **Bucin\
         \n\n  »  **Perintah :** `{cmd}semangat`\
