@@ -452,7 +452,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "nulis": f"❖ **Plugin : **`nulis`\
+        "albynulis": f"❖ **Plugin : **`albynulis`\
         \n\n ┌❖ **Perintah :** `.nulis <text>`\
         \n └❖ **Berfungsi : **membuat tulisan online di kertas pertama dengan font 1.\
         \n\n ┌❖ **Perintah :** `.nulis1 <text>`\
@@ -467,7 +467,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "nulis2": f"❖ **Plugin : **`nulis kedua`\
+        "albynulis2": f"❖ **Plugin : **`albynuliskedua`\
         \n\n ┌❖ **Perintah :** `.nulis4 <text>`\
         \n └❖ **Berfungsi : **membuat tulisan online di kertas pertama dengan font 2.\
         \n\n ┌❖ **Perintah :** `.nulis5 <text>`\
@@ -482,7 +482,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "nulis3": f"❖ **Plugin : **`nulis ketiga`\
+        "albynulis3": f"❖ **Plugin : **`alby nulis ketiga`\
         \n\n ┌❖ **Perintah :** `.nulis8 <text>`\
         \n └❖ **Berfungsi : **membuat tulisan online di kertas pertama dengan font 3.\
         \n\n ┌❖ **Perintah :** `.nulis9 <text>`\
