@@ -8,7 +8,6 @@
 # ╚═╝░░╚═╝╚══════╝╚═════╝░░░░╚═╝░░░
 # ⚠️ Do not remove credits ⚠️
 
-import asyncio
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from AyiinXd import CMD_HELP
 from AyiinXd.events import register
@@ -18,7 +17,7 @@ from AyiinXd.events import register
 async def _(event):
     if event.fwd_from:
         return
-    aing = await event.client.get_me()
+    await event.client.get_me()
     text = event.pattern_match.group(1)
     if not text:
         await event.edit("`Tambahin teks tugas kalian yang panjang agar dapat di ringkas`")
