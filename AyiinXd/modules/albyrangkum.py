@@ -49,7 +49,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "rangkuman": f"❖ **Plugin : **`rangkum tugas`\
+        "albyrangkuman": f"❖ **Plugin : **`rangkum`\
         \n\n ┌❖ **Perintah :** `.rangkum <text>`\
         \n └❖ **Berfungsi : **Untuk Merangkum atau Meringkas Tugas yang Panjang.\
     "
