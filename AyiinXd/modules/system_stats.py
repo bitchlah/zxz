@@ -186,7 +186,7 @@ async def amireallyalive(alive):
     uptime = await get_readable_time((time.time() - StartTime))
     await alive.edit("✨")
     await asyncio.sleep(3)
-    output = ((
+    output = (
         f"**Tʜᴇ [ᴀʟʙʏ-ᴜsᴇʀʙᴏᴛ](https://github.com/PunyaAlby/ALBY-Userbot)**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
@@ -201,8 +201,6 @@ async def amireallyalive(alive):
         f"{emoji} **Aʏɪɪɴ Vᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"{emoji} **Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n")
-        f"    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/ruangdiskusikami)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/ruangprojects)** | **[𝗢𝘄𝗻𝗲𝗿](tg://user?id={user.id})**"
-    )
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
