@@ -187,3 +187,234 @@ CMD_HELP.update(
     "
     }
 )
+
+CMD_HELP.update(
+    {
+        "animasigerak": f"❖ **Plugin : **`animasigerak`\
+        \n\n ┌❖ **Perintah :** `.huh`\
+        \n └❖ **Berfungsi : **Mengirim animasi kasih love gajadi.\
+        \n\n ┌❖ **Perintah :** `.huh2`\
+        \n └❖ **Berfungsi : **Mengirim animasi kasih love gajadi versi 2.\
+        \n\n ┌❖ **Perintah :** `.nah`\
+        \n └❖ **Berfungsi : **Mengirim animasi kasih love tapi bohong.\
+        \n\n ┌❖ **Perintah :** `.nah2`\
+        \n └❖ **Berfungsi : **Mengirim animasi kasih love gajadi tapi ga dihargai.\
+        \n\n ┌❖ **Perintah :** `.nih`\
+        \n └❖ **Berfungsi : **Mengirim animasi kasih love gajadi versi 2.\
+        \n\n ┌❖ **Perintah :** `.tai`\
+        \n └❖ **Berfungsi : **Mengirim animasi nawarin tai.\
+        \n\n ┌❖ **Perintah :** `.fuck`\
+        \n └❖ **Berfungsi : **Mengirim Gambar fuck via emoji.\
+        \n\n ┌❖ **Perintah :** `.fck`\
+        \n └❖ **Berfungsi : **Mengirim Mengirim animasi emot fuck versi 2.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasigerak2": f"❖ **Plugin : **`animasigerak2`\
+        \n\n ┌❖ **Perintah :** `.wtf`\
+        \n └❖ **Berfungsi : **Mengirim animasi tulisan fuck.\
+        \n\n ┌❖ **Perintah :** `.ceritacinta`\
+        \n └❖ **Berfungsi : **Mengirim animasi cerita cinta zaman sekarang.\
+        \n\n ┌❖ **Perintah :** `.bulan`\
+        \n └❖ **Berfungsi : **Mengirim animasi bulan.\
+        \n\n ┌❖ **Perintah :** `.bulan2`\
+        \n └❖ **Berfungsi : **Mengirim animasi bulan versi 2.\
+        \n\n ┌❖ **Perintah :** `.kiss`\
+        \n └❖ **Berfungsi : **Mengirim animasi emoji kiss.\
+        \n\n ┌❖ **Perintah :** `.buah`\
+        \n └❖ **Berfungsi : **Mengirim animasi buah.\
+        \n\n ┌❖ **Perintah :** `.waktu`\
+        \n └❖ **Berfungsi : **Mengirim animasi waktu.\
+        \n\n ┌❖ **Perintah :** `.bunga`\
+        \n └❖ **Berfungsi : **Mengirim animasi bunga.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasigerak3": f"❖ **Plugin : **`animasigerak3`\
+        \n\n ┌❖ **Perintah :** `.jam`\
+        \n └❖ **Berfungsi : **Mengirim animasi jam.\
+        \n\n ┌❖ **Perintah :** `.hujan`\
+        \n └❖ **Berfungsi : **Mengirim animasi hujan.\
+        \n\n ┌❖ **Perintah :** `.love`\
+        \n └❖ **Berfungsi : **Mengirim animasi love.\
+        \n\n ┌❖ **Perintah :** `.bumi`\
+        \n └❖ **Berfungsi : **Mengirim animasi bumi berputar.\
+        \n\n ┌❖ **Perintah :** `.hati`\
+        \n └❖ **Berfungsi : **Mengirim animasi hati.\
+        \n\n ┌❖ **Perintah :** `.monyet`\
+        \n └❖ **Berfungsi : **Mengirim animasi emoji monyet.\
+        \n\n ┌❖ **Perintah :** `.emo`\
+        \n └❖ **Berfungsi : **Mengirim animasi emoji monyet versi 2.\
+        \n\n ┌❖ **Perintah :** `.gas`\
+        \n └❖ **Berfungsi : **Mengirim animasi ambulans.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasigerak4": f"❖ **Plugin : **`animasigerak4`\
+        \n\n ┌❖ **Perintah :** `.sayang`\
+        \n └❖ **Berfungsi : **Mengirim animasi sayang kamu.\
+        \n\n ┌❖ **Perintah :** `.dino`\
+        \n └❖ **Berfungsi : **Mengirim animasi lari dari dino.\
+        \n\n ┌❖ **Perintah :** `.gabut`\
+        \n └❖ **Berfungsi : **Mengirim animasi gabut.\
+        \n\n ┌❖ **Perintah :** `.gabut2`\
+        \n └❖ **Berfungsi : **Mengirim animasi gabut versi 2.\
+        \n\n ┌❖ **Perintah :** `.orgil`\
+        \n └❖ **Berfungsi : **Mengirim animasi lari dari orang gila.\
+        \n\n ┌❖ **Perintah :** `.mf`\
+        \n └❖ **Berfungsi : **Mengirim tulisan gambar maaf gak dulu.\
+        \n\n ┌❖ **Perintah :** `.belo`\
+        \n └❖ **Berfungsi : **Mengirim animasi Macam Macam Perintah Menarik.\
+        \n\n ┌❖ **Perintah :** `.qs`\
+        \n └❖ **Berfungsi : **Mengirim animasi Memulai Percakapan.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasigerak5": f"❖ **Plugin : **`animasigerak5`\
+        \n\n ┌❖ **Perintah :** `.cinta`\
+        \n └❖ **Berfungsi : **Mengirim animasi server cintaku padamu.\
+        \n\n ┌❖ **Perintah :** `.wupload`\
+        \n └❖ **Berfungsi : **Animasi server upload telegram ke WhatsApp.\
+        \n\n ┌❖ **Perintah :** `.Macos`\
+        \n └❖ **Berfungsi : **Animasi menghubungkan ke server Hackintosh.\
+        \n\n ┌❖ **Perintah :** `.windows`\
+        \n └❖ **Berfungsi : **Animasi menghubungkan ke server windows 10.\
+        \n\n ┌❖ **Perintah :** `.linux`\
+        \n └❖ **Berfungsi : **Animasi menghubungkan ke server Linux.\
+        \n\n ┌❖ **Perintah :** `.Stock`\
+        \n └❖ **Berfungsi : **Animasi menghubungkan ke server Symbian OS.\
+        \n\n ┌❖ **Perintah :** `.os`\
+        \n └❖ **Berfungsi : **Animasi scanning os.\
+    "
+    }
+)
+
+
+CMD_HELP.update(
+    {
+        "animasigerak6": f"❖ **Plugin : **`animasigerak6`\
+        \n\n ┌❖ **Perintah :** `.quickheal`\
+        \n └❖ **Berfungsi : **Virus Ditemukan, Hapus Itu Menggunakan Ini:v.\
+        \n\n ┌❖ **Perintah :** `.sqh`\
+        \n └❖ **Berfungsi : **Virus Ditemukan, Hapus Itu Menggunakan Ini:v.\
+        \n\n ┌❖ **Perintah :** `.vquickheal`\
+        \n └❖ **Berfungsi : **Virus Ditemukan, Hapus Itu Menggunakan Ini:v.\
+        \n\n ┌❖ **Perintah :** `.jaralby`\
+        \n └❖ **Berfungsi : **Mengirim animasi menstabilkan jaringan.\
+        \n\n ┌❖ **Perintah :** `.dump`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.think`\
+        \n └❖ **Berfungsi : **Mengirim animasi berfikir.\
+        \n\n ┌❖ **Perintah :** `.music`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.telepon`\
+        \n └❖ **Berfungsi : **Mengirim animasi memanggil owner Telegram.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasigerak7": f"❖ **Plugin : **`animasigerak7`\
+        \n\n ┌❖ **Perintah :** `.hack`\
+        \n └❖ **Berfungsi : **Mengirim animasi hack.\
+        \n\n ┌❖ **Perintah :** `.hacktel`\
+        \n └❖ **Berfungsi : **Mengirim animasi hack Telegram modifikasi from @punya_alby.\
+        \n\n ┌❖ **Perintah :** `.hackwa`\
+        \n └❖ **Berfungsi : **Mengirim animasi hack WhatsApp modifikasi from @punya_alby.\
+        \n\n ┌❖ **Perintah :** `.hackfb`\
+        \n └❖ **Berfungsi : **Mengirim animasi hack Facebook modifikasi form @punya_alby.\
+        \n\n ┌❖ **Perintah :** `.sinyal`\
+        \n └❖ **Berfungsi : **Mengirim Animasi hilang sinyal karena ketemu alien.\
+        \n\n ┌❖ **Perintah :** `.load`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.up`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.round`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasigerak8": f"❖ **Plugin : **`animasigerak8`\
+        \n\n ┌❖ **Perintah :** `.heart`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.square`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.anim`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.fnl`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.monkey`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.hand`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.cnt`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.admeme`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasigerak9": f"❖ **Plugin : **`animasigerak9`\
+        \n\n ┌❖ **Perintah :** `.support2`\
+        \n └❖ **Berfungsi : **Mengirim animasi mataku kenapa😭.\
+        \n\n ┌❖ **Perintah :** `.albyuserbot`\
+        \n └❖ **Berfungsi : **Mengirim animasi ALBY USERBOT.\
+        \n\n ┌❖ **Perintah :** `.city`\
+        \n └❖ **Berfungsi : **Mengirim animasi city.\
+        \n\n ┌❖ **Perintah :** `.kereta`\
+        \n └❖ **Berfungsi : **Mengirim animasi kereta.\
+        \n\n ┌❖ **Perintah :** `.dingdong`\
+        \n └❖ **Berfungsi : **Mengirim animasi ding.... dong....\
+        \n\n ┌❖ **Perintah :** `.virus`\
+        \n └❖ **Berfungsi : **Mengirim animasi Virus.\
+        \n\n ┌❖ **Perintah :** `.gotm`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.gott`\
+        \n └❖ **Berfungsi : **Mengirim animasi cek sendiri.\
+        \n\n ┌❖ **Perintah :** `.hp`\
+        \n └❖ **Berfungsi : **Mengirim animasi Macam Macam Perintah Menarik.\
+        \n\n ┌❖ **Perintah :** `.suits`\
+        \n └❖ **Berfungsi : **Mengirim animasi Macam Macam Perintah Menarik.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasigerak10": f"❖ **Plugin : **`animasigerak10`\
+        \n\n ┌❖ **Perintah :** `.pesawat`\
+        \n └❖ **Berfungsi : **Mengirim animasi Berkeliling Di Satu Tempat✈️.\
+        \n\n ┌❖ **Perintah :** `.bom`\
+        \n └❖ **Berfungsi : **Mengirim animasi bom.\
+        \n\n ┌❖ **Perintah :** `.hadiah`\
+        \n └❖ **Berfungsi : **Mengirim animasi kiriman hadiah.\
+        \n\n ┌❖ **Perintah :** `.polisi`\
+        \n └❖ **Berfungsi : **Mengirim animasi polisi.\
+        \n\n ┌❖ **Perintah :** `.kill`\
+        \n └❖ **Berfungsi : **Mengirim animasi Untuk Membunuh Musuh Secara Online:v.\
+        \n\n ┌❖ **Perintah :** `.solar`\
+        \n └❖ **Berfungsi : **Mengirim animasi solar.\
+        \n\n ┌❖ **Perintah :** `.human`\
+        \n └❖ **Berfungsi : **Mengirim animasi human.\
+    "
+    }
+)
