@@ -12,7 +12,7 @@
 # PERSETAN DENGAN ORANG YANG HAPUS CREDIT!
 # ⚠️ Do not remove credits ⚠️
 
-from userbot import CMD_HELP
+from AyiinXd import CMD_HELP
 
 CMD_HELP.update(
     {
