@@ -1,6 +1,7 @@
 # inspiration from @greyyvbss
 # modification of @punya_alby
 
+from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP
 from AyiinXd.ayiin import ayiin_cmd
 import random
@@ -71,11 +72,11 @@ async def _(event):
 CMD_HELP.update(
     {
         "albyppcouple": f"❖ **Plugin : **`ppcouple`\
-        \n\n ┌❖ **Perintah :** `.ppcp`\
+        \n\n ┌❖ **Perintah :** `{cmd}ppcp`\
         \n └❖ **Berfungsi : **Untuk Mencari PP Couple secara random.\
-        \n\n ┌❖ **Perintah :** `.ppcp2`\
+        \n\n ┌❖ **Perintah :** `{cmd}ppcp2`\
         \n └❖ **Berfungsi : **Untuk Mencari PP Couple secara random versi kedua.\
-        \n\n ┌❖ **Perintah :** `.ppcp3`\
+        \n\n ┌❖ **Perintah :** `{cmd}ppcp3`\
         \n └❖ **Berfungsi : **Untuk Mencari PP Couple secara random versi ketiga.\
     "
     }
