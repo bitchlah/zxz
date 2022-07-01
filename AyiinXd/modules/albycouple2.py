@@ -1,7 +1,6 @@
 # inspiration from @greyyvbss
 # modification of @punya_alby
 
-from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP
 from AyiinXd.ayiin import ayiin_cmd
 import random
