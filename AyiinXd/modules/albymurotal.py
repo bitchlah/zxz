@@ -8,7 +8,6 @@
 # ╚═╝░░╚═╝╚══════╝╚═════╝░░░░╚═╝░░░
 # ⚠️ Do not remove credits ⚠️
 
-from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP
 from AyiinXd.ayiin import ayiin_cmd
 import random
@@ -25,7 +24,7 @@ async def _(event):
                 "@vidgram_murotal", filter=InputMessagesFilterVideo
             )
         ]
-        aing = await event.client.get_me()
+        await event.client.get_me()
         await event.client.send_file(
             event.chat_id,
             file=random.choice(videonya),
@@ -45,7 +44,7 @@ async def _(event):
                 "@vidgram_murotal", filter=InputMessagesFilterPhotos
             )
         ]
-        aing = await event.client.get_me()
+        await event.client.get_me()
         await event.client.send_file(
             event.chat_id,
             file=random.choice(imagenya),
