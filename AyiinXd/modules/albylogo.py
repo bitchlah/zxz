@@ -5,10 +5,11 @@ import asyncio
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from AyiinXd import ALIVE_NAME, CMD_HELP
+from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd.events import register
+from AyiinXd.ayiin import ayiin_cmd
 
-
-@register(outgoing=True, pattern=r"^\.logo(?: |$)(.*)")
+@ayiin_cmd(pattern="logo(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
@@ -41,5 +42,5 @@ async def _(event):
         await event.delete()
 
 
-CMD_HELP.update({"logo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.logo `"
+CMD_HELP.update({"logo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}logo `"
                  "\n↳ : Hasilkan logo dari Teks atau Balas Ke gambar yang diberikan, untuk menulis teks Anda di atasnya. Atau Balas Ke File Font, Untuk menulis dengan font itu."})
