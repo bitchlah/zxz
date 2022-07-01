@@ -2,7 +2,7 @@
 # RAM-UBOT
 # beberapa gambar dari @greyyvbss
 # Terima kasih untuk semua creator yang membuat animasi gambar✨
-# Maaf bagi creator yang tidak sempat dicantumkan atas kelalaian saya 🙏🏻
+# Maaf bagi creator yang tidak sempat dicantumkan atas kelalaian saya 🙏🏻 
 # collect image animation by @punya_alby
 # Modifikasi edit by @punya_alby
 # Jangan Dihapus Credits nya bodoh
@@ -19,7 +19,7 @@
 from AyiinXd.events import register
 
 
-@register(outgoing=True, pattern="thanks(?: |$)(.*)')
+@register(outgoing=True, pattern='^.thanks(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("●▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬●\n"
@@ -32,7 +32,7 @@ async def typewriter(typew):
                      "●▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬●")
 
 
-@register(outgoing=True, pattern="malam(?: |$)(.*)')
+@register(outgoing=True, pattern='^.malam(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("╔═╦═╦╗╔═╦══╦═╦══╗\n"
@@ -45,7 +45,7 @@ async def typewriter(typew):
                      "╚╩╩╩╩╩═╩╩╩╩╩╝")
 
 
-@register(outgoing=True, pattern="rumah(?: |$)(.*)')
+@register(outgoing=True, pattern='^.rumah(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**GAMBAR RUMAH**\n"
@@ -57,7 +57,7 @@ async def typewriter(typew):
                      "๑۩๑๑۩๑๑ ۩๑๑۩๑▓๑۩๑๑۩๑")
 
 
-@register(outgoing=True, pattern="join(?: |$)(.*)')
+@register(outgoing=True, pattern='^.join(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("_/﹋\\_\n"
@@ -67,7 +67,7 @@ async def typewriter(typew):
                      "\n**ᴊᴏɪɴ ʟɪɴᴋ ʙɪᴏ😡**")
 
 
-@register(outgoing=True, pattern="tembak(?: |$)(.*)')
+@register(outgoing=True, pattern='^.tembak(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("_/﹋\\_\n"
@@ -78,8 +78,7 @@ async def typewriter(typew):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="begal(?: |$)(.*)')
+@register(outgoing=True, pattern='^.begal(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("_/﹋\\_\n"
@@ -90,8 +89,7 @@ async def typewriter(typew):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="tmo(?: |$)(.*)')
+@register(outgoing=True, pattern='^.tmo(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("_/﹋\\_\n"
@@ -102,8 +100,7 @@ async def typewriter(typew):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="ch(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ch(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("_/﹋\\_\n"
@@ -114,8 +111,7 @@ async def typewriter(typew):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="lari(?: |$)(.*)')
+@register(outgoing=True, pattern='^.lari(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
@@ -125,9 +121,8 @@ async def typewriter(typew):
         "█████▄▲▲▲─▄▄▄▀───▀▄\n"
         "██████▀▀▀▀─▀────────▀▀\n"
         " **LARI ADA DINO**\n")
-
-
-@register(outgoing=True, pattern="lari2$")
+    
+@register(outgoing=True, pattern=r"^\.lari2$")
 async def leave(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("────██──────▀▀▀██\n"
@@ -137,7 +132,7 @@ async def leave(e):
                      "─▀───────▀▀─▀───────▀▀\n`Kabur Ah, Banyak Anak Haram disini, Awowkowkwk..`")
 
 
-@register(outgoing=True, pattern="lari3$")
+@register(outgoing=True, pattern=r"^\.lari3$")
 async def leave(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("────██──────▀▀▀██\n"
@@ -148,8 +143,7 @@ async def leave(e):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="lari4$")
+@register(outgoing=True, pattern=r"^\.lari4$")
 async def leave(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("────██──────▀▀▀██\n"
@@ -161,7 +155,7 @@ async def leave(e):
 
 # Modifikasi edit by @punya_alby
 
-@register(outgoing=True, pattern="lari5$")
+@register(outgoing=True, pattern=r"^\.lari5$")
 async def leave(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("────██──────▀▀▀██\n"
@@ -172,8 +166,7 @@ async def leave(e):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="lari6(?: |$)(.*)')
+@register(outgoing=True, pattern='^.lari6(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("────██──────▀▀▀██\n"
@@ -184,8 +177,7 @@ async def typewriter(typew):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="truk(?: |$)(.*)')
+@register(outgoing=True, pattern='^.truk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
@@ -196,13 +188,13 @@ async def typewriter(typew):
         "▀❍▀▀▀▀▀▀▀❍❍▀▀▀▀▀▀❍❍▀\n")
 
 
-@register(outgoing=True, pattern="kingkong(?: |$)(.*)')
+@register(outgoing=True, pattern='^.kingkong(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
         "▒▒▒▒▒▄██████████▄▒▒▒▒▒\n"
         "▒▒▒▄██████████████▄▒▒▒\n"
-        "▒▒████████████████▄▒▒▒\n"
+        "▒▒████████████████▄▒▒▒\n"               
         "▒▐███▀▀▀▀▀██▀▀▀▀▀███▌▒\n"
         "▒███▒▒▌■▐▒▒▒▒▌■▐▒▒███▒\n"
         "▒▐██▄▒▀▀▀▒▒▒▒▀▀▀▒▄██▌▒\n"
@@ -212,9 +204,9 @@ async def typewriter(typew):
         "▒▒▒██▒▒▀▀▀▀▀▀▀▀▒▒██▒▒▒\n"
         "▒▒▒▐██▄▒▒▒▒▒▒▒▒▄██▌▒▒▒\n"
         "▒▒▒▒▀████████████▀▒▒▒▒\n")
-
-
-@register(outgoing=True, pattern="hmm(?: |$)(.*)')
+    
+    
+@register(outgoing=True, pattern='^.hmm(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
@@ -227,29 +219,29 @@ async def typewriter(typew):
         "   ╲┃┈┈┈┈╭━┳━━━━╯\n"
         "   ╲┣━━━━━━┫\n"
         "      **MENCURIGAKAN**\n")
+    
 
-
-@register(outgoing=True, pattern="wlee(?: |$)(.*)')
+@register(outgoing=True, pattern='^.wlee(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
-        "┈╭━━━━━━━━━━━╮┈\n"
-        "╭╯┈╭━━╮┈╭━━╮┈╰╮\n"
-        "┃┈┃┃╭╮┃┈┃╭╮┃┃┈┃\n"
-        "┃┈┃┻┻┻┛┈┗┻┻┻┃┈┃\n"
-        " ┃┈┃╭╮┈◢▇◣┈╭╮┃┈┃\n"
-        "╰┳╯┃╰━━┳┳┳╯┃╰┳╯\n"
-        "┈┃┈╰━━━┫┃┣━╯┈┃┈\n"
+        "┈╭━━━━━━━━━━━╮┈\n" 
+        "╭╯┈╭━━╮┈╭━━╮┈╰╮\n" 
+        "┃┈┃┃╭╮┃┈┃╭╮┃┃┈┃\n" 
+        "┃┈┃┻┻┻┛┈┗┻┻┻┃┈┃\n" 
+        " ┃┈┃╭╮┈◢▇◣┈╭╮┃┈┃\n" 
+        "╰┳╯┃╰━━┳┳┳╯┃╰┳╯\n" 
+        "┈┃┈╰━━━┫┃┣━╯┈┃┈\n" 
         "┈┃┈┈┈┈┈╰━╯┈┈┈┃┈\n")
-
-
-@register(outgoing=True, pattern="penis(?: |$)(.*)')
+    
+    
+@register(outgoing=True, pattern='^.penis(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("MAU LIAT PENIS GA???")
+    await typew.edit( "MAU LIAT PENIS GA???")
     sleep(1)
     await zz.edit("NIHHHH DIAA")
-    sleep(1)
+    sleep(1)  
     await zz.edit("░░░░█─────────────█──▀──\n"
                   "░░░░▓█───────▄▄▀▀█──────\n"
                   "░░░░▒░█────▄█▒░░▄░█─────\n"
@@ -263,12 +255,12 @@ async def typewriter(typew):
                   "▓██▓▒▒▒▒▒▒▒▒▒█░░░░█─────\n"
                   "▓▓█▓▒▒▒▒▒▒▓▒▒█░░░░░█────\n"
                   "░▒▒▀▀▄▄▄▄█▄▄▀░░░░░░░█─\n")
-
-
-@register(outgoing=True, pattern="ahhh(?: |$)(.*)')
+    
+    
+@register(outgoing=True, pattern='^.ahhh(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("ahhh")
+    await typew.edit( "ahhh")
     await zz.edit("ahhh ahhh")
     await zz.edit("ahhh ahhh ahhh")
     await zz.edit("🥵")
@@ -341,7 +333,7 @@ GAMBAR_TENGKORAK = """
 """
 
 
-@register(outgoing=True, pattern="(?:penis2|dick)\\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:penis2|dick)\s?(.)?")
 async def emoji_penis(e):
     emoji = e.pattern_match.group(1)
     kontl = GAMBAR_DICK
@@ -350,7 +342,7 @@ async def emoji_penis(e):
     await e.edit(kontl)
 
 
-@register(outgoing=True, pattern="oke$")
+@register(outgoing=True, pattern=r"^\.oke$")
 async def emoji_oke(e):
     emoji = e.pattern_match.group(1)
     oke = GAMBAR_OK
@@ -359,7 +351,7 @@ async def emoji_oke(e):
     await e.edit(oke)
 
 
-@register(outgoing=True, pattern="tengkorak$")
+@register(outgoing=True, pattern=r"^\.tengkorak$")
 async def emoji_tengkorak(e):
     emoji = e.pattern_match.group(1)
     tengkorak = GAMBAR_TENGKORAK
@@ -368,7 +360,7 @@ async def emoji_tengkorak(e):
     await e.edit(tengkorak)
 
 
-@register(outgoing=True, pattern="punten(?: |$)(.*)')
+@register(outgoing=True, pattern='^.punten(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n┻┳|―-∩`"
@@ -383,7 +375,7 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern="pantau(?: |$)(.*)')
+@register(outgoing=True, pattern='^.pantau(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n┻┳|―-∩`"
@@ -397,8 +389,7 @@ async def typewriter(typew):
 
 # Create by myself @localheart
 
-
-@register(outgoing=True, pattern="ngintip(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ngintip(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n┻┳|―-∩`"
@@ -412,8 +403,7 @@ async def typewriter(typew):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="ngumpet(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ngumpet(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n┻┳|―-∩`"
@@ -427,8 +417,7 @@ async def typewriter(typew):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="idiot(?: |$)(.*)')
+@register(outgoing=True, pattern='^.idiot(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("\n╭╮╱╱╭╮"
@@ -467,7 +456,7 @@ async def typewriter(typew):
                      "\n╰━━━┻━━┻━━┻━━┻━╯")
 
 
-@register(outgoing=True, pattern="bau$")
+@register(outgoing=True, pattern=r"^\.bau$")
 async def gey(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n┈┈┈╭━━━━━╮┈┈┈┈┈\n┈┈┈┃┊┊┊┊┊┃┈┈┈┈┈`"
@@ -476,7 +465,7 @@ async def gey(e):
                      "\n┈┈┈┈┈┈┏━┓┈┈┈┈┈┈")
 
 
-@register(outgoing=True, pattern="gay$")
+@register(outgoing=True, pattern=r"^\.gay$")
 async def gey(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n┈┈┈╭━━━━━╮┈┈┈┈┈\n┈┈┈┃┊┊┊┊┊┃┈┈┈┈┈`"
@@ -484,8 +473,7 @@ async def gey(e):
                      "`\n┈┈╰┳┊╭━━━┳╯┈┈┈┈\n┈┈┈┃┊┃╰━━┫┈ANDA GAY`"
                      "\n┈┈┈┈┈┈┏━┓┈┈┈┈┈┈")
 
-
-@register(outgoing=True, pattern="manis$")
+@register(outgoing=True, pattern=r"^\.manis$")
 async def gey(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n┈┈┈╭━━━━━╮┈┈┈┈┈\n┈┈┈┃┊┊┊┊┊┃┈┈┈┈┈`"
@@ -495,15 +483,14 @@ async def gey(e):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="bot$")
+@register(outgoing=True, pattern=r"^\.bot$")
 async def bot(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("` \n   ╲╲╭━━━━╮ \n╭╮┃▆┈┈▆┃╭╮ \n┃╰┫▽▽▽┣╯┃ \n╰━┫△△△┣━╯`"
                      "`\n╲╲┃┈┈┈┈┃  \n╲╲┃┈┏┓┈┃ `")
 
 
-@register(outgoing=True, pattern="hey$")
+@register(outgoing=True, pattern=r"^\.hey$")
 async def hey(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("\n┈┈┈╱▔▔▔▔╲┈╭━━━━━\n┈┈▕▂▂▂▂▂▂▏┃HEY!┊😀`"
@@ -511,7 +498,7 @@ async def hey(e):
                      "`\n▏┈┈╲▂▂▂▂╱┈┈┈▏┈┈┈`")
 
 
-@register(outgoing=True, pattern="hallo$")
+@register(outgoing=True, pattern=r"^\.hallo$")
 async def hallo(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n┈╭╮╭╮\n┈┃┃┃┃\n╭┻┗┻┗╮`"
@@ -520,7 +507,7 @@ async def hallo(e):
                      "`\n┗━━┻━┛`")
 
 
-@register(outgoing=True, pattern="fail$")
+@register(outgoing=True, pattern=r"^\.fail$")
 async def fail(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ `"
@@ -529,7 +516,7 @@ async def fail(e):
                      "`\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ `")
 
 
-@register(outgoing=True, pattern="lol$")
+@register(outgoing=True, pattern=r"^\.lol$")
 async def lol(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n╱┏┓╱╱╱╭━━━╮┏┓╱╱╱╱ `"
@@ -538,7 +525,7 @@ async def lol(e):
                      "`\n╱┗━━━┛╰━━━╯┗━━━┛╱ `")
 
 
-@register(outgoing=True, pattern="rock$")
+@register(outgoing=True, pattern=r"^\.rock$")
 async def lol(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n┈╭╮┈┈┈┈┈┈┈┈┈┈┈┈ `"
@@ -550,7 +537,7 @@ async def lol(e):
                      "`\n╰╮╱╱╱┃┈┈╰╯╰╯┈┃┈ `")
 
 
-@register(outgoing=True, pattern="lool$")
+@register(outgoing=True, pattern=r"^\.lool$")
 async def lool(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n╭╭━━━╮╮┈┈┈┈┈┈┈┈┈┈\n┈┃╭━━╯┈┈┈┈▕╲▂▂╱▏┈\n┈┃┃╱▔▔▔▔▔▔▔▏╱▋▋╮┈`"
@@ -558,7 +545,7 @@ async def lool(e):
                      "`\n┈┈┈▏┃┃┈┈┈┈▏┃┃┈┈┈┈ `")
 
 
-@register(outgoing=True, pattern="rawr$")
+@register(outgoing=True, pattern=r"^\.rawr$")
 async def rawr(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n█████████`"
@@ -570,7 +557,7 @@ async def rawr(e):
                      "`\n ██   ██`")
 
 
-@register(outgoing=True, pattern="sayhi$")
+@register(outgoing=True, pattern=r"^\.sayhi$")
 async def sayhi(e):
     await e.edit(
         "\n✨✨✨✨✨✨✨✨✨✨✨✨"
@@ -585,7 +572,7 @@ async def sayhi(e):
         "\n✨✨✨✨✨✨✨✨✨✨✨✨")
 
 
-@register(outgoing=True, pattern="helikopter(?: |$)(.*)')
+@register(outgoing=True, pattern='^.helikopter(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("▬▬▬.◙.▬▬▬ \n"
@@ -605,8 +592,7 @@ async def typewriter(typew):
                      "╬═╬/▌ \n"
                      "╬═╬/ \\ \n")
 
-
-@register(outgoing=True, pattern="helikopter2(?: |$)(.*)')
+@register(outgoing=True, pattern='^.helikopter2(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("▬▬▬.◙.▬▬▬ \n"
@@ -628,8 +614,7 @@ async def typewriter(typew):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="helikopter3(?: |$)(.*)')
+@register(outgoing=True, pattern='^.helikopter3(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("▬▬▬.◙.▬▬▬ \n"
@@ -651,8 +636,7 @@ async def typewriter(typew):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="bundir(?: |$)(.*)')
+@register(outgoing=True, pattern='^.bundir(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Dadah Semuanya...`          \n　　　　　|"
@@ -672,8 +656,7 @@ async def typewriter(typew):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="bundir3(?: |$)(.*)')
+@register(outgoing=True, pattern='^.bundir3(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Bundir aja... Gaada yang sayang juga`          \n　　　　　|"
@@ -693,8 +676,7 @@ async def typewriter(typew):
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="bundir2(?: |$)(.*)')
+@register(outgoing=True, pattern='^.bundir2(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Dah lah... Mati aja`          \n　　　　　|"
@@ -712,8 +694,7 @@ async def typewriter(typew):
                      "　＼＿＿／∪ _ ∪) \n"
                      "　　　　　 Ｕ Ｕ\n")
 
-
-@register(outgoing=True, pattern="ular(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ular(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("░░░░▓\n"
@@ -802,11 +783,10 @@ async def typewriter(typew):
                      "░░░░░░░░░░░░░░░░███\n"
                      "░░░░░░░░░░░░░░░░░░░\n")
 
-
-@register(outgoing=True, pattern="ular2(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ular2(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit(
+    await typew.edit(    
         "▃▅▆██████▆▅▃\n"
         "█▒⚫▒🔰▒⚫▒█\n"
         "█▒▒▒▒➖▒▒▒▒█\n"
@@ -884,8 +864,7 @@ async def typewriter(typew):
 
 # Created by @greyyvbss
 
-
-@register(outgoing=True, pattern="sip(?: |$)(.*)')
+@register(outgoing=True, pattern='^.sip(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("‡‡‡‡‡‡‡‡‡‡‡‡▄▄▄▄\n"
@@ -903,7 +882,7 @@ async def typewriter(typew):
                      "█████‡‡‡‡‡‡‡██████████\n")
 
 
-@register(outgoing=True, pattern="tank(?: |$)(.*)')
+@register(outgoing=True, pattern='^.tank(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("█۞███████]▄▄▄▄▄▄▄▄▄▄▃ \n"
@@ -912,7 +891,7 @@ async def typewriter(typew):
                      "◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤\n")
 
 
-@register(outgoing=True, pattern="babi(?: |$)(.*)')
+@register(outgoing=True, pattern='^.babi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("┈┈┏━╮╭━┓┈╭━━━━╮\n"
@@ -925,7 +904,7 @@ async def typewriter(typew):
                      "┈┈┈┈┈┗┻┛┗┻┛┈┈┈┈\n")
 
 
-@register(outgoing=True, pattern="anjing(?: |$)(.*)')
+@register(outgoing=True, pattern='^.anjing(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("╥━━━━━━━━╭━━╮━━┳\n"
@@ -935,8 +914,7 @@ async def typewriter(typew):
                      "╢┊┊┃┏┳┳━━┓┏┳┫┊┊┣\n"
                      "╨━━┗┛┗┛━━┗┛┗┛━━┻\n")
 
-
-@register(outgoing=True, pattern="musang(?: |$)(.*)')
+@register(outgoing=True, pattern='^.musang(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
@@ -951,8 +929,7 @@ async def typewriter(typew):
 
 # Created by @greyyvbss
 
-
-@register(outgoing=True, pattern="gajah(?: |$)(.*)')
+@register(outgoing=True, pattern='^.gajah(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
@@ -967,8 +944,7 @@ async def typewriter(typew):
 
 # Created by @greyyvbss
 
-
-@register(outgoing=True, pattern="spongebob(?: |$)(.*)')
+@register(outgoing=True, pattern='^.spongebob(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
@@ -979,14 +955,13 @@ async def typewriter(typew):
         "▕╭╮▏╮┈┈┈┈┏━━━╯▏\n"
         "▕╰╯▏╯╰┳┳┳┳┳┳╯╭▏ \n"
         "▕┈╭▏╭╮┃┗┛┗┛┃┈╰▏ \n"
-        "▕┈╰▏╰╯╰━━━━╯┈┈▏\n"
-        "           **BOBBB**   ")
+        "▕┈╰▏╰╯╰━━━━╯┈┈▏ν2.ο\n"
+        "           **BOBBB**      ")
 
 # Created by @greyyvbss
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="spongebob2(?: |$)(.*)')
+@register(outgoing=True, pattern='^.spongebob2(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
@@ -997,13 +972,12 @@ async def typewriter(typew):
         "▕╭╮▏╮┈┈┈┈┏━━━╯▏\n"
         "▕╰╯▏╯╰┳┳┳┳┳┳╯╭▏ \n"
         "▕┈╭▏╭╮┃┗┛┗┛┃┈╰▏ \n"
-        "▕┈╰▏╰╯╰━━━━╯┈┈▏\n"
+        "▕┈╰▏╰╯╰━━━━╯┈┈▏ν2.ο\n"
         "           **Yuk ke ladang ubur ubur**")
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="spongebob3(?: |$)(.*)')
+@register(outgoing=True, pattern='^.spongebob3(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
@@ -1014,13 +988,12 @@ async def typewriter(typew):
         "▕╭╮▏╮┈┈┈┈┏━━━╯▏\n"
         "▕╰╯▏╯╰┳┳┳┳┳┳╯╭▏ \n"
         "▕┈╭▏╭╮┃┗┛┗┛┃┈╰▏ \n"
-        "▕┈╰▏╰╯╰━━━━╯┈┈▏\n"
+        "▕┈╰▏╰╯╰━━━━╯┈┈▏ν2.ο\n"
         "           **Main bareng Patrick yuk**")
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="spongebob4(?: |$)(.*)')
+@register(outgoing=True, pattern='^.spongebob4(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
@@ -1031,13 +1004,12 @@ async def typewriter(typew):
         "▕╭╮▏╮┈┈┈┈┏━━━╯▏\n"
         "▕╰╯▏╯╰┳┳┳┳┳┳╯╭▏ \n"
         "▕┈╭▏╭╮┃┗┛┗┛┃┈╰▏ \n"
-        "▕┈╰▏╰╯╰━━━━╯┈┈▏\n"
+        "▕┈╰▏╰╯╰━━━━╯┈┈▏ν2.ο\n"
         "           **Yuk Pergi ke Krusty Krab**")
 
 # Modifikasi edit by @punya_alby
 
-
-@register(outgoing=True, pattern="lonte(?: |$)(.*)')
+@register(outgoing=True, pattern='^.lonte(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
@@ -1071,17 +1043,16 @@ async def typewriter(typew):
         "    _▒▒    ▒▒\n"
         "    ▒▒     ▒▒\n"
         "    ▒▒     ▒▒\n"
-        "  ███     ███\n"
+        "  ███     ███\n"    
         " ███      ███\n"
         "█ ████    █ ███\n")
 
 # Created by @greyyvbss
 
-
-@register(outgoing=True, pattern="loveyou(?: |$)(.*)')
+@register(outgoing=True, pattern='^.loveyou(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit(
+    await typew.edit(    
         "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️\n"
         "❤️╔╦╦╦╦╦╦╦╦╦╦╦╦╗❤️\n"
         "❤️╠╬╬╬╬╬╬╬╬╬╬╬╬╣❤️\n"
@@ -1133,6 +1104,6 @@ async def typewriter(typew):
         "❤️╠████╬╬█╬╬███╣❤️\n"
         "❤️╠╬╬╬╬╬╬╬╬╬╬╬╬╣❤️\n"
         "❤️╚╩╩╩╩╩╩╩╩╩╩╩╩╝❤️\n"
-        "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️\n")
+        "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️\n")    
 
 # Created by @greyyvbss
