@@ -59,7 +59,7 @@ async def _(event):
 CMD_HELP.update(
     {
         "walpaperaesthetic": f"❖ **Plugin : **`walpaper aesthetic`\
-        \n\n ┌❖ **Perintah :** `.walaesthetic`\
+        \n\n ┌❖ **Perintah :** `{cmd}walaesthetic`\
         \n └❖ **Berfungsi : **Untuk Mencari WALPAPER AESTHETIC secara random.\
     "
     }
@@ -68,7 +68,7 @@ CMD_HELP.update(
 CMD_HELP.update(
     {
         "walpaperbts": f"❖ **Plugin : **`walpaper bts`\
-        \n\n ┌❖ **Perintah :** `.walbts`\
+        \n\n ┌❖ **Perintah :** `{cmd}walbts`\
         \n └❖ **Berfungsi : **Untuk Mencari WALPAPER BTS secara random.\
     "
     }
