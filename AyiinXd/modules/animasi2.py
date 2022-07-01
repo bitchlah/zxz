@@ -40,6 +40,7 @@ async def koc(e):
         await e.edit("༼ಢ_ಢ༽")
         await e.edit("༼ ༎ຶ ෴ ༎ຶ༽")
 
+
 @ayiin_cmd(pattern="hua2$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
@@ -230,6 +231,7 @@ async def _(event):
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 6])
+
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
 async def _(event):
