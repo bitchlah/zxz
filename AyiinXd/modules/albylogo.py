@@ -4,11 +4,12 @@ import asyncio
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
+from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import ALIVE_NAME, CMD_HELP
-from AyiinXd.ayiin import ayiin_cmd
+from AyiinXd.events import register
 
 
-@ayiin_cmd(pattern="logo(?: |$)(.*)")
+@register(outgoing=True, pattern="logo(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
