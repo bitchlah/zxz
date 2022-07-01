@@ -10,10 +10,9 @@ import requests
 from re import sub
 from cowpy import cow
 from asyncio import sleep
-from collections import deque
 from random import choice, getrandbits, randint
 
-from AyiinXd import bot, CMD_HELP
+from AyiinXd import CMD_HELP
 from AyiinXd.events import register
 from AyiinXd.modules.admin import get_user_from_event
 
