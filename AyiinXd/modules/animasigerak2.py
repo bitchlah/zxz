@@ -14,8 +14,7 @@ from telethon import events
 import asyncio
 
 from AyiinXd.events import register
-from AyiinXd import CMD_HELP, bot, ALIVE_NAME
-from collections import deque
+from AyiinXd import ALIVE_NAME, bot
 from telethon.errors.rpcerrorlist import MessageIdInvalidError
 import random
 
@@ -205,6 +204,7 @@ async def _(message):
                 await message.edit(something_else)
             except MessageIdInvalidError:
                 return
+
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
 async def _(event):
@@ -764,6 +764,7 @@ async def _(event):
     if x == 97:
 
         await event.edit("`\"If we put solar panels above parking lots, then our cars wouldn't get hot and we would have a lot of clean energy.\"`")
+
 
 @bot.on(events.NewMessage(pattern=r"\.qs", outgoing=True))
 async def _(event):
@@ -1438,8 +1439,6 @@ async def _(event):
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 13])
-
-
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
