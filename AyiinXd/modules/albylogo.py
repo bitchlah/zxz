@@ -5,9 +5,8 @@ import asyncio
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from AyiinXd import ALIVE_NAME, CMD_HELP
-from AyiinXd import CMD_HANDLER as cmd
-from AyiinXd.events import register
 from AyiinXd.ayiin import ayiin_cmd
+
 
 @ayiin_cmd(pattern="logo(?: |$)(.*)")
 async def _(event):
