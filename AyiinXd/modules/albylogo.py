@@ -4,7 +4,6 @@ import asyncio
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import ALIVE_NAME, CMD_HELP
 from AyiinXd.events import register
 
