@@ -5,7 +5,7 @@ from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP
 from AyiinXd.ayiin import ayiin_cmd
 import random
-from userbot import owner
+from AyiinXd import owner
 from telethon.tl.types import InputMessagesFilterPhotos
 
 
