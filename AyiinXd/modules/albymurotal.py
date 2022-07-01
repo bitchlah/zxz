@@ -8,6 +8,7 @@
 # ╚═╝░░╚═╝╚══════╝╚═════╝░░░░╚═╝░░░
 # ⚠️ Do not remove credits ⚠️
 
+from AyiinXd import CMD_HANDLER as cmd
 from AyiinXd import CMD_HELP
 from AyiinXd.ayiin import ayiin_cmd
 import random
@@ -58,7 +59,7 @@ async def _(event):
 CMD_HELP.update(
     {
         "murotalvideo": f"❖ **Plugin : **`Murotal Video`\
-        \n\n ┌❖ **Perintah :** `.murotalvideo`\
+        \n\n ┌❖ **Perintah :** `{cmd}murotalvideo`\
         \n └❖ **Berfungsi : **Untuk Mencari video murotal secara random.\
     "
     }
@@ -67,7 +68,7 @@ CMD_HELP.update(
 CMD_HELP.update(
     {
         "murotal": f"❖ **Plugin : **`Murotal`\
-        \n\n ┌❖ **Perintah :** `.murotal`\
+        \n\n ┌❖ **Perintah :** `{cmd}murotal`\
         \n └❖ **Berfungsi : **Untuk Mencari gambar berisi kata kata murotal secara random.\
     "
     }
