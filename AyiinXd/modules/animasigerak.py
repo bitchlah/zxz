@@ -2075,7 +2075,6 @@ async def _(event):
         ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
-        await event.edit(animation_chars[i % 549755813888])
 
 
 @register(outgoing=True, pattern='^.city(?: |$)(.*)')
@@ -2138,6 +2137,5 @@ async def _(event):
         ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
-        await event.edit(animation_chars[i % 549755813888])
 
 # created by @greyyvbss
