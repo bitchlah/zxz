@@ -4,7 +4,7 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b ALBY-Userbot https://github.com/bitchlah/zxz /home/albyuserbot/ \
+RUN git clone -b ALBY-Userbot https://github.com/PunyaAlby/Userbot /home/albyuserbot/ \
     && chmod 777 /home/albyuserbot \
     && mkdir /home/albyuserbot/bin/
 
