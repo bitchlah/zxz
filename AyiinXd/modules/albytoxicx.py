@@ -5,7 +5,7 @@
 # by apis
 # RAM-UBOT
 # Terima kasih untuk semua creator yang membuat animasi gambar✨
-# Maaf bagi creator yang belum dicantumkan atas kelalaian saya 🙏🏻 
+# Maaf bagi creator yang belum dicantumkan atas kelalaian saya 🙏🏻
 # Modifikasi edit by @punya_alby
 # Jangan Dihapus Credits nya bodoh
 # ░█████╗░██╗░░░░░██████╗░██╗░░░██╗
@@ -18,9 +18,8 @@
 # ⚠️ Do not delete credits ⚠️
 
 from time import sleep
-from platform import uname
-from AyiinXd import ALIVE_NAME, CMD_HELP
 from AyiinXd.events import register
+
 
 @register(outgoing=True, pattern="^.lahk(?: |$)(.*)")
 async def typewriter(typew):
@@ -32,6 +31,7 @@ async def typewriter(typew):
     await typew.edit("`Gausah sok keras`")
     sleep(1)
     await typew.edit("`Gua ga ketrigger sama bocah baru nyemplung!`")
+
 
 @register(outgoing=True, pattern="^.title(?: |$)(.*)")
 async def typewriter(typew):
@@ -92,6 +92,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`NIH LINK GC SUPPORT NYA 👉` @ruangdiskusikami")
 
+
 @register(outgoing=True, pattern='^.tolol(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -114,6 +115,7 @@ async def typewriter(typew):
     await typew.edit("`TOLOL`")
     await typew.edit("`TOLOL!!!!`")
 
+
 @register(outgoing=True, pattern="^.gangster(?: |$)(.*)")
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in (
@@ -134,6 +136,7 @@ async def _(event):
         await asyncio.sleep(1)
         await event.edit("Mau gak gua bunuh? Woi bodoh 😎😎😎")
 
+
 @register(outgoing=True, pattern='^.gblk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -150,6 +153,7 @@ async def typewriter(typew):
     await typew.edit("JAUHIN AJA AJG, BOCAH KYA DIA MAH")
     sleep(2)
     await typew.edit("TINGGALIN AJA YA AJG!!!!")
+
 
 @register(outgoing=True, pattern="^.assa(?: |$)(.*)")
 async def typewriter(typew):
@@ -174,6 +178,7 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("**YANG GA JAWAB, FIX ATHEISS!!**")
 # Create by myself @ram-ubot
+
 
 @register(outgoing=True, pattern="^.adaerpe(?: |$)(.*)")
 async def typewriter(typew):
@@ -367,6 +372,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Mampus Kau Wibu**")
 
+
 @register(outgoing=True, pattern="^.p(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -483,6 +489,7 @@ async def perkenalan(event):
     await event.edit("`SEMANGAT💞💞💞`")
 # Created by @punya_alby
 
+
 @register(outgoing=True, pattern="^.kerja(?: |$)(.*)")
 async def perkenalan(event):
     event.pattern_match.group(1)
@@ -538,6 +545,7 @@ async def perkenalan(event):
     sleep(2)
     await event.edit("`aku siap jadi pendengar cerita kamu`")
 # Created by @punya_alby
+
 
 @register(outgoing=True, pattern='^p2(?: |$)(.*)')
 async def typewriter(typew):
