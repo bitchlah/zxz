@@ -418,3 +418,88 @@ CMD_HELP.update(
     "
     }
 )
+
+CMD_HELP.update(
+    {
+        "albytoxic4": f"**Plugin : **`albytoxic4`\
+        \n\n  »  **Perintah :** `.lahk`\
+        \n  »  **Kegunaan : **Cobain Sendiri Dah Tod.\
+        \n\n  »  **Perintah :** `.title`\
+        \n  »  **Kegunaan : **Cobain Sendiri Dah Tod.\
+        \n\n  »  **Perintah :** `.tolol`\
+        \n  »  **Kegunaan : **Cobain Sendiri Dah Tod.\
+        \n\n  »  **Perintah :** `.gangster`\
+        \n  »  **Kegunaan : **Cobain Sendiri Dah Tod.\
+        \n\n  »  **Perintah :** `.gblk`\
+        \n  »  **Kegunaan : **Cobain Sendiri Dah Tod.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasiislami": f"❖ **Plugin : **`animasiislami`\
+        \n\n ┌❖ **Perintah :** `.assa`\
+        \n └❖ **Berfungsi : **Mengirim animasi ASSALAMUALAIKUM versi indo.\
+        \n\n ┌❖ **Perintah :** `.p`\
+        \n └❖ **Berfungsi : **Mengirim Tulisan ASSALAMUALAIKUM.\
+        \n\n ┌❖ **Perintah :** `.p2`\
+        \n └❖ **Berfungsi : **Mengirim Tulisan ASSALAMUALAIKUM versi Arab.\
+        \n\n ┌❖ **Perintah :** `.l`\
+        \n └❖ **Berfungsi : **Mengirim Tulisan WA'ALAIKUMSALAM.\
+        \n\n ┌❖ **Perintah :** `.l2`\
+        \n └❖ **Berfungsi : **Mengirim Tulisan WA'ALAIKUMSALAM versi Arab.\
+        \n\n ┌❖ **Perintah :** `.istighfar`\
+        \n └❖ **Berfungsi : **Mengirim Tulisan ISTIGHFAR versi arab.\
+        \n\n ┌❖ **Perintah :** `.atg`\
+        \n └❖ **Berfungsi : **Mengirim Tulisan ASTAGHFIRULLAH SAYANG.\
+        \n\n ┌❖ **Perintah :** `.ast`\
+        \n └❖ **Berfungsi : **Mengirim Tulisan istighfar.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasierpe": f"❖ **Plugin : **`animasierpe`\
+        \n\n ┌❖ **Perintah :** `.erpe`\
+        \n └❖ **Berfungsi : **Mengirim animasi ngatain erpe.\
+        \n\n ┌❖ **Perintah :** `.erpe2`\
+        \n └❖ **Berfungsi : **Mengirim animasi ngatain erpe versi 2.\
+        \n\n ┌❖ **Perintah :** `.adaerpe`\
+        \n └❖ **Berfungsi : **Mengirim animasi lari ada erpe.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasiwibu": f"❖ **Plugin : **`animasiwibu`\
+        \n\n ┌❖ **Perintah :** `.wibu3`\
+        \n └❖ **Berfungsi : **Mengirim Animasi teks ngatain wibu.\
+        \n\n ┌❖ **Perintah :** `.wibu2`\
+        \n └❖ **Berfungsi : **Mengirim Animasi teks ngatain wibu.\
+        \n\n ┌❖ **Perintah :** `.wibu`\
+        \n └❖ **Berfungsi : **Mengirim Animasi teks ngatain wibu.\
+    "
+    }
+)
+
+CMD_HELP.update(
+    {
+        "animasialby": f"❖ **Plugin : **`animasi alby`\
+        \n\n ┌❖ **Perintah :** `.albyy`\
+        \n └❖ **Berfungsi : **Mengirim Animasi teks ngatain alby.\
+        \n\n ┌❖ **Perintah :** `.nugas`\
+        \n └❖ **Berfungsi : **Mengirim Animasi teks semangatin nugas.\
+        \n\n ┌❖ **Perintah :** `.kerja`\
+        \n └❖ **Berfungsi : **Mengirim Animasi teks semangatin kerja.\
+        \n\n ┌❖ **Perintah :** `.kangencerita`\
+        \n └❖ **Berfungsi : **Mengirim Animasi teks kangencerita.\
+        \n\n ┌❖ **Perintah :** `.prenjon`\
+        \n └❖ **Berfungsi : **Mengirim Animasi teks prenjon.\
+        \n\n ┌❖ **Perintah :** `.support`\
+        \n └❖ **Berfungsi : **Mengirim Animasi gc Support ALBY USERBOT.\
+    "
+    }
+)
