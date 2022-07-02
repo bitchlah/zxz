@@ -373,7 +373,7 @@ async def typewriter(typew):
     await typew.edit("**Mampus Kau Wibu**")
 
 
-@register(outgoing=True, pattern="^.p(?: |$)(.*)")
+@register(outgoing=True, pattern="^.p2(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Salam Dulu Biar Sopan...`")
@@ -384,7 +384,7 @@ async def typewriter(typew):
 # Salam
 
 
-@register(outgoing=True, pattern="^.l(?: |$)(.*)")
+@register(outgoing=True, pattern="^.l2(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Kalo Orang Salam Itu Dijawab...`")
